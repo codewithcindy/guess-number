@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #556775;
+  background-image: url("https://www.transparenttextures.com/patterns/az-subtle.png");
+  color: #d9d9d9;
+  font-family: "Mali", cursive;
+  text-align: center;
+}
+
+header {
+  padding: 4rem 0 0 0;
+}
+
+hr {
+  width: 20%;
+  margin: 3rem auto;
+}
+
+.scores {
+  padding: 2rem;
+}
+
+.guess {
+  width: 9rem;
+  height: 5rem;
+  margin: 1rem 0;
+  font-size: 2.5rem;
+  text-align: center;
+  font-family: "Mali", cursive;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+  padding: 0.3rem 0.5rem;
+  border-radius: 2rem;
+  border: none;
+  font-family: "Mali", cursive;
+}
+
+.btn:hover {
+  background-color: #8c8c8c;
+  color: #fff;
+  padding: 0.3rem 1rem;
+}
+
+.message {
+  padding: 4rem;
+  font-size: 1.5rem;
+}
